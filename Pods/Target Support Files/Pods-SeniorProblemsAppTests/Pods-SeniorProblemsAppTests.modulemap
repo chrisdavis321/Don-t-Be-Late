@@ -1,0 +1,6 @@
+framework module Pods_SeniorProblemsAppTests {
+  umbrella header "Pods-SeniorProblemsAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
