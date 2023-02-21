@@ -39,21 +39,21 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
-		<key>Pods-SeniorProblemsApp-SeniorProblemsAppUITests.xcscheme</key>
+		<key>Pods-SeniorProbApp-SeniorProbAppUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
-		<key>Pods-SeniorProblemsApp.xcscheme</key>
+		<key>Pods-SeniorProbApp.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
-		<key>Pods-SeniorProblemsAppTests.xcscheme</key>
+		<key>Pods-SeniorProbAppTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
