@@ -7,8 +7,14 @@
 
 import UIKit
 
+protocol HomeViewControllerDelegate: AnyObject {
+    func didTapMenuButton()
+}
+
 class HomeViewController: UIViewController {
 
+    weak var delegate: HomeViewControllerDelegate?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
@@ -21,7 +27,7 @@ class HomeViewController: UIViewController {
     }
     
     @objc func didTapMenuButton() {
-        
+        delegate?.didTapMenuButton()
     }
     
 }

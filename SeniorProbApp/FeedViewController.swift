@@ -25,11 +25,18 @@ class FeedViewController: UIViewController {
         menuVC.didMove(toParent: self)
     
         //Home
+        homeVC.delegate = self
         let navVC = UINavigationController(rootViewController: homeVC)
         addChild(navVC)
         view.addSubview(navVC.view)
         navVC.didMove(toParent: self)
         
     }
-    
+}
+
+extension FeedViewController: HomeViewControllerDelegate {
+    func didTapMenuButton() {
+        //Animate the menu
+        print("did tap menu")
+    }
 }
