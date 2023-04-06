@@ -9,21 +9,27 @@ import UIKit
 
 class FeedViewController: UIViewController {
 
+    let menuVC = MenuViewController()
+    let homeVC = HomeViewController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .red
+        addChildVCs()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    private func addChildVCs() {
+        //Menu
+        addChild(menuVC)
+        view.addSubview(menuVC.view)
+        menuVC.didMove(toParent: self)
+    
+        //Home
+        let navVC = UINavigationController(rootViewController: homeVC)
+        addChild(navVC)
+        view.addSubview(navVC.view)
+        navVC.didMove(toParent: self)
+        
     }
-    */
-
+    
 }
