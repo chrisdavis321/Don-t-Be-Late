@@ -19,6 +19,7 @@ class FeedViewController: UIViewController {
     let menuVC = MenuViewController()
     let homeVC = HomeViewController()
     var navVC: UINavigationController?
+    lazy var infoVC = InfoViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +29,7 @@ class FeedViewController: UIViewController {
     
     private func addChildVCs() {
         //Menu
+        menuVC.delegate = self
         addChild(menuVC)
         view.addSubview(menuVC.view)
         menuVC.didMove(toParent: self)
@@ -39,12 +41,15 @@ class FeedViewController: UIViewController {
         view.addSubview(navVC.view)
         navVC.didMove(toParent: self)
         self.navVC = navVC
-        
     }
 }
 
 extension FeedViewController: HomeViewControllerDelegate {
     func didTapMenuButton() {
+        toggleMenu(completion: nil)
+    }
+    
+    func toggleMenu(completion: (() -> Void)?) {
         switch menuState {
         case .closed:
             //open it
@@ -55,6 +60,7 @@ extension FeedViewController: HomeViewControllerDelegate {
             } completion: { [weak self] done in
                 if done {
                     self?.menuState = .opened
+
                 }
             }
 
@@ -67,8 +73,47 @@ extension FeedViewController: HomeViewControllerDelegate {
             } completion: { [weak self] done in
                 if done {
                     self?.menuState = .closed
+                    DispatchQueue.main.async {
+                        completion?()
+                    }
                 }
             }
         }
+    }
+}
+
+extension FeedViewController: MenuViewControllerDelegate {
+   
+    func didSelect(menuItem: MenuViewController.MenuOptions) {
+        toggleMenu(completion: nil)
+        switch menuItem {
+        case .home:
+            self.resetToHome()
+        case .info:
+            //Add info child
+            self.addInfo()
+        case .appRating:
+            break
+        case .shareApp:
+            break
+        case .settings:
+            break
+        }        
+    }
+  
+    func addInfo() {
+        let vc = infoVC
+        
+        homeVC.addChild(vc)
+        homeVC.view.addSubview(vc.view)
+        vc.view.frame = view.frame
+        vc.didMove(toParent: homeVC)
+        homeVC.title = vc.title
+    }
+    
+    func resetToHome() {
+        infoVC.view.removeFromSuperview()
+        infoVC.didMove(toParent: nil)
+        homeVC.title = "Home"
     }
 }

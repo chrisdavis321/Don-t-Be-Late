@@ -28,11 +28,13 @@ class LoginViewController: UIViewController {
         { (user, error) in
         if user != nil {
             self.performSegue(withIdentifier: "loginSegue", sender: nil)
+            
         } else {
             print("Error: \(error?.localizedDescription)")
             }
+            
         }
-        
+    
     }
     
     @IBAction func onSignup(_ sender: Any) {

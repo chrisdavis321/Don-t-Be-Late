@@ -21,6 +21,7 @@
 		A42B9BF029A521870080611C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42B9BEF29A521870080611C /* LoginViewController.swift */; };
 		A493721A29DF011500B2A4B8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A493721929DF011500B2A4B8 /* HomeViewController.swift */; };
 		A493721C29DF036700B2A4B8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A493721B29DF036700B2A4B8 /* MenuViewController.swift */; };
+		A493721E29E2261C00B2A4B8 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A493721D29E2261C00B2A4B8 /* InfoViewController.swift */; };
 		A6AC9AB0791AF7328BE3BBE1 /* Pods_SeniorProbAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 877F78DBEFEEA5892086E37E /* Pods_SeniorProbAppTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		A42B9BEF29A521870080611C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A493721929DF011500B2A4B8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A493721B29DF036700B2A4B8 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A493721D29E2261C00B2A4B8 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		AF69BD5D30327207489BF5EF /* Pods-SeniorProbAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeniorProbAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SeniorProbAppTests/Pods-SeniorProbAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C9464120AF1A49DE46FB4251 /* Pods-SeniorProbApp-SeniorProbAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeniorProbApp-SeniorProbAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SeniorProbApp-SeniorProbAppUITests/Pods-SeniorProbApp-SeniorProbAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,6 +147,7 @@
 				A42B9BED29A5215F0080611C /* FeedViewController.swift */,
 				A493721B29DF036700B2A4B8 /* MenuViewController.swift */,
 				A493721929DF011500B2A4B8 /* HomeViewController.swift */,
+				A493721D29E2261C00B2A4B8 /* InfoViewController.swift */,
 			);
 			path = SeniorProbApp;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 				A493721A29DF011500B2A4B8 /* HomeViewController.swift in Sources */,
 				A493721C29DF036700B2A4B8 /* MenuViewController.swift in Sources */,
 				A42B9BF029A521870080611C /* LoginViewController.swift in Sources */,
+				A493721E29E2261C00B2A4B8 /* InfoViewController.swift in Sources */,
 				A42B9BBC29A520810080611C /* AppDelegate.swift in Sources */,
 				A42B9BEE29A5215F0080611C /* FeedViewController.swift in Sources */,
 				A42B9BBE29A520810080611C /* SceneDelegate.swift in Sources */,
