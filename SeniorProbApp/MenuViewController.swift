@@ -17,26 +17,12 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     enum MenuOptions: String, CaseIterable {
         case home = "Home"
-        case info = "Information"
-        case appRating = "App Rating"
-        case shareApp = "Share App"
-        case settings = "Settings"
+        case info = "Arthur J. Bond Hall"
+        case jamesD = "James L. Dawson"
+        case nsoB = "New School of Business"
+        case rdM = "R.D Morrison Fine Arts"
+        case vmC = "V.M Chambers Science Building"
         
-        var imageName:String {
-            switch self {
-                
-            case .home:
-                return "house"
-            case .info:
-                return "airplane"
-            case .appRating:
-                return "star"
-            case .shareApp:
-                return "message"
-            case .settings:
-                return "gear"
-            }
-        }
     }
     
     private let tableView: UITableView = {
@@ -71,7 +57,6 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = MenuOptions.allCases[indexPath.row].rawValue
         cell.textLabel?.textColor = .white
-        cell.imageView?.image = UIImage(systemName: MenuOptions.allCases[indexPath.row].imageName)
         cell.imageView?.tintColor = .white
         cell.backgroundColor = greyColor
         cell.contentView.backgroundColor = greyColor

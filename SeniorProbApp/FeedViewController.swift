@@ -20,6 +20,10 @@ class FeedViewController: UIViewController {
     let homeVC = HomeViewController()
     var navVC: UINavigationController?
     lazy var infoVC = InfoViewController()
+    lazy var jamesVC = JamesDViewController()
+    lazy var nsobVC = NSoBViewController()
+    lazy var rdmVC = RDMorrisonViewController()
+    lazy var vmcVC = VMCViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -92,12 +96,14 @@ extension FeedViewController: MenuViewControllerDelegate {
         case .info:
             //Add info child
             self.addInfo()
-        case .appRating:
-            break
-        case .shareApp:
-            break
-        case .settings:
-            break
+        case .jamesD:
+            self.addJames()
+        case .nsoB:
+            self.addNSoB()
+        case .rdM:
+            self.addRDM()
+        case .vmC:
+            self.addVMC()
         }        
     }
   
@@ -115,5 +121,42 @@ extension FeedViewController: MenuViewControllerDelegate {
         infoVC.view.removeFromSuperview()
         infoVC.didMove(toParent: nil)
         homeVC.title = "Home"
+    }
+    
+    func addJames() {
+        let vc = jamesVC
+        
+        homeVC.addChild(vc)
+        homeVC.view.addSubview(vc.view)
+        vc.view.frame = view.frame
+        vc.didMove(toParent: homeVC)
+        homeVC.title = vc.title
+    }
+    func addNSoB() {
+        let vc = nsobVC
+        
+        homeVC.addChild(vc)
+        homeVC.view.addSubview(vc.view)
+        vc.view.frame = view.frame
+        vc.didMove(toParent: homeVC)
+        homeVC.title = vc.title
+    }
+    func addRDM() {
+        let vc = rdmVC
+        
+        homeVC.addChild(vc)
+        homeVC.view.addSubview(vc.view)
+        vc.view.frame = view.frame
+        vc.didMove(toParent: homeVC)
+        homeVC.title = vc.title
+    }
+    func addVMC() {
+        let vc = vmcVC
+        
+        homeVC.addChild(vc)
+        homeVC.view.addSubview(vc.view)
+        vc.view.frame = view.frame
+        vc.didMove(toParent: homeVC)
+        homeVC.title = vc.title
     }
 }
