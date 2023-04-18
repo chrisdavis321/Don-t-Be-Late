@@ -1,6 +1,0 @@
-framework module Pods_SeniorProbApp_SeniorProbAppUITests {
-  umbrella header "Pods-SeniorProbApp-SeniorProbAppUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

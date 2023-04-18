@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E9707E9E70E28468562C484 /* Pods_SeniorProbBackUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDE7B7C90E55AF55284CF409 /* Pods_SeniorProbBackUp.framework */; };
+		A4AF2A3429EDFFD200D0D357 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF2A3329EDFFD200D0D357 /* AppDelegate.swift */; };
+		A4AF2A3629EDFFD200D0D357 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF2A3529EDFFD200D0D357 /* SceneDelegate.swift */; };
+		A4AF2A3B29EDFFD200D0D357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AF2A3929EDFFD200D0D357 /* Main.storyboard */; };
+		A4AF2A3D29EDFFD500D0D357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4AF2A3C29EDFFD500D0D357 /* Assets.xcassets */; };
+		A4AF2A4029EDFFD500D0D357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4AF2A3E29EDFFD500D0D357 /* LaunchScreen.storyboard */; };
+		A4AF2A4B29EDFFD500D0D357 /* SeniorProbBackUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF2A4A29EDFFD500D0D357 /* SeniorProbBackUpTests.swift */; };
+		A4AF2A5529EDFFD500D0D357 /* SeniorProbBackUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF2A5429EDFFD500D0D357 /* SeniorProbBackUpUITests.swift */; };
+		A4AF2A5729EDFFD500D0D357 /* SeniorProbBackUpUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF2A5629EDFFD500D0D357 /* SeniorProbBackUpUITestsLaunchTests.swift */; };
+		A4AF2A6629EE061600D0D357 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF2A6529EE061600D0D357 /* HomeViewController.swift */; };
+		A4AF2A6829EE0DFE00D0D357 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF2A6729EE0DFE00D0D357 /* LoginViewController.swift */; };
+		BBA7DD315C3E5AE584DE7BF1 /* Pods_SeniorProbBackUp_SeniorProbBackUpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47FE2238A39B7863EAE1D6B6 /* Pods_SeniorProbBackUp_SeniorProbBackUpUITests.framework */; };
+		F53B5B24A87B10F211A854C7 /* Pods_SeniorProbBackUpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF8902363E4BD8B1C4BC5304 /* Pods_SeniorProbBackUpTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4AF2A4729EDFFD500D0D357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4AF2A2829EDFFD200D0D357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4AF2A2F29EDFFD200D0D357;
+			remoteInfo = SeniorProbBackUp;
+		};
+		A4AF2A5129EDFFD500D0D357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4AF2A2829EDFFD200D0D357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4AF2A2F29EDFFD200D0D357;
+			remoteInfo = SeniorProbBackUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EEAEE8C373368590C1A9947 /* Pods-SeniorProbBackUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeniorProbBackUp.release.xcconfig"; path = "Target Support Files/Pods-SeniorProbBackUp/Pods-SeniorProbBackUp.release.xcconfig"; sourceTree = "<group>"; };
+		3A286F5579DFDB7CEF749F9E /* Pods-SeniorProbBackUp-SeniorProbBackUpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeniorProbBackUp-SeniorProbBackUpUITests.debug.xcconfig"; path = "Target Support Files/Pods-SeniorProbBackUp-SeniorProbBackUpUITests/Pods-SeniorProbBackUp-SeniorProbBackUpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		47FE2238A39B7863EAE1D6B6 /* Pods_SeniorProbBackUp_SeniorProbBackUpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeniorProbBackUp_SeniorProbBackUpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AEA334A50094708BF3EB6FC /* Pods-SeniorProbBackUpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeniorProbBackUpTests.debug.xcconfig"; path = "Target Support Files/Pods-SeniorProbBackUpTests/Pods-SeniorProbBackUpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1386DF348CED14FADCBC5BB /* Pods-SeniorProbBackUp-SeniorProbBackUpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeniorProbBackUp-SeniorProbBackUpUITests.release.xcconfig"; path = "Target Support Files/Pods-SeniorProbBackUp-SeniorProbBackUpUITests/Pods-SeniorProbBackUp-SeniorProbBackUpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A4AF2A3029EDFFD200D0D357 /* SeniorProbBackUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeniorProbBackUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AF2A3329EDFFD200D0D357 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4AF2A3529EDFFD200D0D357 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A4AF2A3A29EDFFD200D0D357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4AF2A3C29EDFFD500D0D357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4AF2A3F29EDFFD500D0D357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4AF2A4129EDFFD500D0D357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4AF2A4629EDFFD500D0D357 /* SeniorProbBackUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeniorProbBackUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AF2A4A29EDFFD500D0D357 /* SeniorProbBackUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorProbBackUpTests.swift; sourceTree = "<group>"; };
+		A4AF2A5029EDFFD500D0D357 /* SeniorProbBackUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeniorProbBackUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AF2A5429EDFFD500D0D357 /* SeniorProbBackUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorProbBackUpUITests.swift; sourceTree = "<group>"; };
+		A4AF2A5629EDFFD500D0D357 /* SeniorProbBackUpUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorProbBackUpUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A4AF2A6529EE061600D0D357 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A4AF2A6729EE0DFE00D0D357 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BDE7B7C90E55AF55284CF409 /* Pods_SeniorProbBackUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeniorProbBackUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8902363E4BD8B1C4BC5304 /* Pods_SeniorProbBackUpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeniorProbBackUpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BAC6248617BF6F7CBE3619 /* Pods-SeniorProbBackUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeniorProbBackUp.debug.xcconfig"; path = "Target Support Files/Pods-SeniorProbBackUp/Pods-SeniorProbBackUp.debug.xcconfig"; sourceTree = "<group>"; };
+		E7539BF46640672AE80CE2EE /* Pods-SeniorProbBackUpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeniorProbBackUpTests.release.xcconfig"; path = "Target Support Files/Pods-SeniorProbBackUpTests/Pods-SeniorProbBackUpTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4AF2A2D29EDFFD200D0D357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E9707E9E70E28468562C484 /* Pods_SeniorProbBackUp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AF2A4329EDFFD500D0D357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53B5B24A87B10F211A854C7 /* Pods_SeniorProbBackUpTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AF2A4D29EDFFD500D0D357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA7DD315C3E5AE584DE7BF1 /* Pods_SeniorProbBackUp_SeniorProbBackUpUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4AF2A2729EDFFD200D0D357 = {
+			isa = PBXGroup;
+			children = (
+				A4AF2A3229EDFFD200D0D357 /* SeniorProbBackUp */,
+				A4AF2A4929EDFFD500D0D357 /* SeniorProbBackUpTests */,
+				A4AF2A5329EDFFD500D0D357 /* SeniorProbBackUpUITests */,
+				A4AF2A3129EDFFD200D0D357 /* Products */,
+				C4E8691B1DF5D7D1C6B03FB7 /* Pods */,
+				B138E666D3F06CD85BA69415 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4AF2A3129EDFFD200D0D357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF2A3029EDFFD200D0D357 /* SeniorProbBackUp.app */,
+				A4AF2A4629EDFFD500D0D357 /* SeniorProbBackUpTests.xctest */,
+				A4AF2A5029EDFFD500D0D357 /* SeniorProbBackUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4AF2A3229EDFFD200D0D357 /* SeniorProbBackUp */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF2A3329EDFFD200D0D357 /* AppDelegate.swift */,
+				A4AF2A3529EDFFD200D0D357 /* SceneDelegate.swift */,
+				A4AF2A3929EDFFD200D0D357 /* Main.storyboard */,
+				A4AF2A3C29EDFFD500D0D357 /* Assets.xcassets */,
+				A4AF2A3E29EDFFD500D0D357 /* LaunchScreen.storyboard */,
+				A4AF2A4129EDFFD500D0D357 /* Info.plist */,
+				A4AF2A6529EE061600D0D357 /* HomeViewController.swift */,
+				A4AF2A6729EE0DFE00D0D357 /* LoginViewController.swift */,
+			);
+			path = SeniorProbBackUp;
+			sourceTree = "<group>";
+		};
+		A4AF2A4929EDFFD500D0D357 /* SeniorProbBackUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF2A4A29EDFFD500D0D357 /* SeniorProbBackUpTests.swift */,
+			);
+			path = SeniorProbBackUpTests;
+			sourceTree = "<group>";
+		};
+		A4AF2A5329EDFFD500D0D357 /* SeniorProbBackUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF2A5429EDFFD500D0D357 /* SeniorProbBackUpUITests.swift */,
+				A4AF2A5629EDFFD500D0D357 /* SeniorProbBackUpUITestsLaunchTests.swift */,
+			);
+			path = SeniorProbBackUpUITests;
+			sourceTree = "<group>";
+		};
+		B138E666D3F06CD85BA69415 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDE7B7C90E55AF55284CF409 /* Pods_SeniorProbBackUp.framework */,
+				47FE2238A39B7863EAE1D6B6 /* Pods_SeniorProbBackUp_SeniorProbBackUpUITests.framework */,
+				BF8902363E4BD8B1C4BC5304 /* Pods_SeniorProbBackUpTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4E8691B1DF5D7D1C6B03FB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0BAC6248617BF6F7CBE3619 /* Pods-SeniorProbBackUp.debug.xcconfig */,
+				1EEAEE8C373368590C1A9947 /* Pods-SeniorProbBackUp.release.xcconfig */,
+				3A286F5579DFDB7CEF749F9E /* Pods-SeniorProbBackUp-SeniorProbBackUpUITests.debug.xcconfig */,
+				A1386DF348CED14FADCBC5BB /* Pods-SeniorProbBackUp-SeniorProbBackUpUITests.release.xcconfig */,
+				4AEA334A50094708BF3EB6FC /* Pods-SeniorProbBackUpTests.debug.xcconfig */,
+				E7539BF46640672AE80CE2EE /* Pods-SeniorProbBackUpTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4AF2A2F29EDFFD200D0D357 /* SeniorProbBackUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4AF2A5A29EDFFD500D0D357 /* Build configuration list for PBXNativeTarget "SeniorProbBackUp" */;
+			buildPhases = (
+				3D38E64CC8F58B7B893A5DC6 /* [CP] Check Pods Manifest.lock */,
+				A4AF2A2C29EDFFD200D0D357 /* Sources */,
+				A4AF2A2D29EDFFD200D0D357 /* Frameworks */,
+				A4AF2A2E29EDFFD200D0D357 /* Resources */,
+				1D03B82D0A9468FBB2A38394 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeniorProbBackUp;
+			productName = SeniorProbBackUp;
+			productReference = A4AF2A3029EDFFD200D0D357 /* SeniorProbBackUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4AF2A4529EDFFD500D0D357 /* SeniorProbBackUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4AF2A5D29EDFFD500D0D357 /* Build configuration list for PBXNativeTarget "SeniorProbBackUpTests" */;
+			buildPhases = (
+				02965447E85611D255018A6E /* [CP] Check Pods Manifest.lock */,
+				A4AF2A4229EDFFD500D0D357 /* Sources */,
+				A4AF2A4329EDFFD500D0D357 /* Frameworks */,
+				A4AF2A4429EDFFD500D0D357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4AF2A4829EDFFD500D0D357 /* PBXTargetDependency */,
+			);
+			name = SeniorProbBackUpTests;
+			productName = SeniorProbBackUpTests;
+			productReference = A4AF2A4629EDFFD500D0D357 /* SeniorProbBackUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4AF2A4F29EDFFD500D0D357 /* SeniorProbBackUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4AF2A6029EDFFD500D0D357 /* Build configuration list for PBXNativeTarget "SeniorProbBackUpUITests" */;
+			buildPhases = (
+				6BD83246EC1504407A5BAB56 /* [CP] Check Pods Manifest.lock */,
+				A4AF2A4C29EDFFD500D0D357 /* Sources */,
+				A4AF2A4D29EDFFD500D0D357 /* Frameworks */,
+				A4AF2A4E29EDFFD500D0D357 /* Resources */,
+				1FE7DDDC22A72B9955BA9654 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4AF2A5229EDFFD500D0D357 /* PBXTargetDependency */,
+			);
+			name = SeniorProbBackUpUITests;
+			productName = SeniorProbBackUpUITests;
+			productReference = A4AF2A5029EDFFD500D0D357 /* SeniorProbBackUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4AF2A2829EDFFD200D0D357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A4AF2A2F29EDFFD200D0D357 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A4AF2A4529EDFFD500D0D357 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A4AF2A2F29EDFFD200D0D357;
+					};
+					A4AF2A4F29EDFFD500D0D357 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A4AF2A2F29EDFFD200D0D357;
+					};
+				};
+			};
+			buildConfigurationList = A4AF2A2B29EDFFD200D0D357 /* Build configuration list for PBXProject "SeniorProbBackUp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4AF2A2729EDFFD200D0D357;
+			productRefGroup = A4AF2A3129EDFFD200D0D357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4AF2A2F29EDFFD200D0D357 /* SeniorProbBackUp */,
+				A4AF2A4529EDFFD500D0D357 /* SeniorProbBackUpTests */,
+				A4AF2A4F29EDFFD500D0D357 /* SeniorProbBackUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4AF2A2E29EDFFD200D0D357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AF2A4029EDFFD500D0D357 /* LaunchScreen.storyboard in Resources */,
+				A4AF2A3D29EDFFD500D0D357 /* Assets.xcassets in Resources */,
+				A4AF2A3B29EDFFD200D0D357 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AF2A4429EDFFD500D0D357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AF2A4E29EDFFD500D0D357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02965447E85611D255018A6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeniorProbBackUpTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D03B82D0A9468FBB2A38394 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeniorProbBackUp/Pods-SeniorProbBackUp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeniorProbBackUp/Pods-SeniorProbBackUp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeniorProbBackUp/Pods-SeniorProbBackUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FE7DDDC22A72B9955BA9654 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeniorProbBackUp-SeniorProbBackUpUITests/Pods-SeniorProbBackUp-SeniorProbBackUpUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeniorProbBackUp-SeniorProbBackUpUITests/Pods-SeniorProbBackUp-SeniorProbBackUpUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeniorProbBackUp-SeniorProbBackUpUITests/Pods-SeniorProbBackUp-SeniorProbBackUpUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D38E64CC8F58B7B893A5DC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeniorProbBackUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BD83246EC1504407A5BAB56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeniorProbBackUp-SeniorProbBackUpUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4AF2A2C29EDFFD200D0D357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AF2A6829EE0DFE00D0D357 /* LoginViewController.swift in Sources */,
+				A4AF2A3429EDFFD200D0D357 /* AppDelegate.swift in Sources */,
+				A4AF2A3629EDFFD200D0D357 /* SceneDelegate.swift in Sources */,
+				A4AF2A6629EE061600D0D357 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AF2A4229EDFFD500D0D357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AF2A4B29EDFFD500D0D357 /* SeniorProbBackUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AF2A4C29EDFFD500D0D357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AF2A5529EDFFD500D0D357 /* SeniorProbBackUpUITests.swift in Sources */,
+				A4AF2A5729EDFFD500D0D357 /* SeniorProbBackUpUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4AF2A4829EDFFD500D0D357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4AF2A2F29EDFFD200D0D357 /* SeniorProbBackUp */;
+			targetProxy = A4AF2A4729EDFFD500D0D357 /* PBXContainerItemProxy */;
+		};
+		A4AF2A5229EDFFD500D0D357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4AF2A2F29EDFFD200D0D357 /* SeniorProbBackUp */;
+			targetProxy = A4AF2A5129EDFFD500D0D357 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4AF2A3929EDFFD200D0D357 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4AF2A3A29EDFFD200D0D357 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4AF2A3E29EDFFD500D0D357 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4AF2A3F29EDFFD500D0D357 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4AF2A5829EDFFD500D0D357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4AF2A5929EDFFD500D0D357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4AF2A5B29EDFFD500D0D357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0BAC6248617BF6F7CBE3619 /* Pods-SeniorProbBackUp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LT982YM77;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeniorProbBackUp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChristopherDavis.SeniorProbBackUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4AF2A5C29EDFFD500D0D357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EEAEE8C373368590C1A9947 /* Pods-SeniorProbBackUp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LT982YM77;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeniorProbBackUp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChristopherDavis.SeniorProbBackUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4AF2A5E29EDFFD500D0D357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AEA334A50094708BF3EB6FC /* Pods-SeniorProbBackUpTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LT982YM77;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChristopherDavis.SeniorProbBackUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeniorProbBackUp.app/SeniorProbBackUp";
+			};
+			name = Debug;
+		};
+		A4AF2A5F29EDFFD500D0D357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7539BF46640672AE80CE2EE /* Pods-SeniorProbBackUpTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LT982YM77;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChristopherDavis.SeniorProbBackUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeniorProbBackUp.app/SeniorProbBackUp";
+			};
+			name = Release;
+		};
+		A4AF2A6129EDFFD500D0D357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A286F5579DFDB7CEF749F9E /* Pods-SeniorProbBackUp-SeniorProbBackUpUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LT982YM77;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChristopherDavis.SeniorProbBackUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeniorProbBackUp;
+			};
+			name = Debug;
+		};
+		A4AF2A6229EDFFD500D0D357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1386DF348CED14FADCBC5BB /* Pods-SeniorProbBackUp-SeniorProbBackUpUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LT982YM77;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ChristopherDavis.SeniorProbBackUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeniorProbBackUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4AF2A2B29EDFFD200D0D357 /* Build configuration list for PBXProject "SeniorProbBackUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AF2A5829EDFFD500D0D357 /* Debug */,
+				A4AF2A5929EDFFD500D0D357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4AF2A5A29EDFFD500D0D357 /* Build configuration list for PBXNativeTarget "SeniorProbBackUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AF2A5B29EDFFD500D0D357 /* Debug */,
+				A4AF2A5C29EDFFD500D0D357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4AF2A5D29EDFFD500D0D357 /* Build configuration list for PBXNativeTarget "SeniorProbBackUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AF2A5E29EDFFD500D0D357 /* Debug */,
+				A4AF2A5F29EDFFD500D0D357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4AF2A6029EDFFD500D0D357 /* Build configuration list for PBXNativeTarget "SeniorProbBackUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AF2A6129EDFFD500D0D357 /* Debug */,
+				A4AF2A6229EDFFD500D0D357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4AF2A2829EDFFD200D0D357 /* Project object */;
+}
